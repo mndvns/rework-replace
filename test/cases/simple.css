@@ -1,0 +1,5 @@
+.foo {
+  __height: 100px;
+  --size: @__height;
+}
+
