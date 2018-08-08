@@ -20,7 +20,7 @@ var css = require('fs').readfileSync('style.css', 'utf8');
 
 var matches = {
   'zoom': false,    // keys are parsed as regular expressions
-  '-moz-: false,    // values are `false` or string
+  '-moz-': false,    // values are `false` or string
   '^__': false,     // a value of `false` will remove the declaration
   '^--': '-vendor'  // a string will replace the declaration key
 }
